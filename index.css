@@ -1,0 +1,69 @@
+body{
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #242424;
+    overflow: hidden;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    align-self: center;
+    font-size: 80px;
+    text-shadow: 2px 5px 20px #000000;
+}
+
+.wrapper{
+    display: flex;
+}
+
+#bit-image{
+    padding:25px 10px
+}
+
+#bit-name{
+    align-self: center;
+    font-size: 20px;
+}
+
+.bit-image-wrapper span{
+    align-self: center;
+    font-size:30px
+}
+
+#bit-price{
+    margin:0;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+#temp{
+    align-self: center;
+    font-size:20px
+}
+
+#city{
+    margin:0;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+#author{
+    align-self: flex-start;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #474747;
+}
